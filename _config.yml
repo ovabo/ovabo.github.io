@@ -1,7 +1,7 @@
-title: "0x41434f"
+title: "AO"
 description: Software Engineer. Mental Health Worker. Building toward Computational Psychiatry.
 baseurl: ""
-url: "https://ovabor.github.io"
+url: "https://ovabo.github.io"
 markdown: kramdown
 theme: minima
 permalink: /essays/:title/
