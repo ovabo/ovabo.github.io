@@ -2,13 +2,13 @@
 layout: default
 ---
 
-# 0x41434f
+# ACO
 
 I am a software engineer and mental health worker building toward a career in Computational Psychiatry and Health Policy.
 
 I am currently finishing my medical school prerequisites with the goal of becoming a Consultation-Liaison Psychiatrist. My background includes a BS in Computer Science with a Cybersecurity focus, 7+ years as an engineer and venture capital analyst, and hundreds of hours on the floor of an acute psychiatric hospital.
 
-I am the founder of [Stratification Labs](https://0x41434f.github.io/essays/the-stratification-mandate/), a studio for tools that reduce administrative burden and end trial-and-error psychiatry.
+I am the founder of [Stratification Labs](https://ovabo.github.io/essays/the-stratification-mandate/), a studio for tools that reduce administrative burden and end trial-and-error psychiatry.
 
 ---
 
