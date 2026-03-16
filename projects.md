@@ -14,16 +14,16 @@ Everything I build connects to the same problem: psychiatric care is broken acro
 
 | Area            | Project / Item                              | One-line description                                                                 | Link                     |
 |-----------------|---------------------------------------------|--------------------------------------------------------------------------------------|--------------------------|
-| Clinical tech   | Stratification Labs                         | Studio for clinical tools that stratify psychiatric patients before treatment.      | —                        |
+| Clinical tech   | Stratification Labs                         | Studio for clinical tools that stratify psychiatric patients before treatment.      | -                        |
 | Clinical tech   | Psykick                                     | Automates the administrative work that consumes psychiatrists' time and attention.  | [View Psykick](https://psykicksv1.vercel.app/) |
 | Clinical tech   | Psychify                                    | Uses foundation models to stratify biotypes and predict treatment response at day zero. | [View Psychify](https://psychify-dz8w.vercel.app/) |
-| Patient access  | Project Jatoria                             | Navigator for understanding and accessing mental healthcare services.               | [View Project Jatoria](https://jt-app.vercel.app/) |
-| Research        | BH Spending & Access (HPD)                  | Links behavioral health spending to access and facility supply in California.       | —                        |
-| Research        | Low-Value Psychiatric Care                  | Quantifies overuse of pharmaceuticals vs lower-cost alternatives in inpatient psych. | —                       |
-| Research        | Medicaid BH Fraud Vulnerability             | Tests fraud patterns in Medi-Cal behavioral health services.                        | —                        |
-| Research        | Autism Centers & Medicaid Funding           | Examines how autism centers are funded through Medicaid and distributed across states. | —                     |
-| Tools           | Psychiatric Hospital Review Scraper         | Scrapes and analyzes patient reviews of psychiatric hospitals across California.    | —                        |
-| Writing         | Essay Collection                            | Seventeen essays (May 2025–Mar 2026) tracing my journey and systems analysis.       | [Read the essays](/)     |
+| Patient access  | Jatoria Cares                               | Navigator for understanding and accessing mental healthcare services.               | [View Jatoria Cares](https://jt-app.vercel.app/) |
+| Research        | BH Spending and Access (HPD)                | Links behavioral health spending to access and facility supply in California.       | -                        |
+| Research        | Low-Value Psychiatric Care                  | Quantifies overuse of pharmaceuticals vs lower-cost alternatives in inpatient psych. | -                       |
+| Research        | Medicaid Behavioral Health Fraud Vulnerability | Tests fraud patterns in Medi-Cal behavioral health services.                      | -                        |
+| Research        | Autism Centers and Medicaid Funding         | Examines how autism centers are funded through Medicaid and distributed across states. | -                     |
+| Tools           | Psychiatric Hospital Review Scraper         | Scrapes and analyzes patient reviews of psychiatric hospitals across California.    | -                        |
+| Writing         | Essay Collection                            | Seventeen essays (May 2025 to March 2026) tracing my journey and systems analysis.  | [Read the essays](/)     |
 
 ---
 
@@ -52,7 +52,7 @@ Stratification Labs is the parent company for my clinical technology work. The c
 
 ---
 
-## Project Jatoria — Mental Health Navigator
+## Jatoria Cares - Mental Health Navigator
 
 | Field           | Detail |
 |----------------|--------|
@@ -70,11 +70,11 @@ Stratification Labs is the parent company for my clinical technology work. The c
 - **Guided intake flow:** Modeled on Garner Health's approach. Users describe their situation in plain language and get matched to the right facility type and insurance match, rather than navigating a raw directory.
 - **Facility quality signal layer:** Composite scoring using licensing violations, accreditations (Joint Commission, CARF), modalities offered (MAT, DBT, trauma-informed care), staff ratios, and insurance acceptance.
 - **Behavioral health data directory:** Modeled on Trilliant Health's Oria. Consolidate scattered public facility data into a single queryable dataset exposed through both structured search and a conversational AI interface.
-- **Open dataset publication:** For researchers, journalists, and policy advocates, with integration into Project Jatoria.
+- **Open dataset publication:** For researchers, journalists, and policy advocates, with integration into Jatoria Cares.
 
 | Field   | Detail |
 |---------|--------|
-| **Link** | [View Project Jatoria](https://jt-app.vercel.app/) |
+| **Link** | [View Jatoria Cares](https://jt-app.vercel.app/) |
 
 ---
 
@@ -87,11 +87,11 @@ Current and planned research directions that connect claims data, facility suppl
 | Field             | Detail |
 |-------------------|--------|
 | **Status**        | Data access requested from HCAI. |
-| **Research question** | Does behavioral health spending in California reach the populations and geographies that need it, and what structural factors — facility supply, payer mix, parity enforcement — predict the gap? |
-| **Method**        | Extend HCAI's existing Milbank methodology (currently commercial-only, statewide aggregates) to all payers at the county level using Healthcare Payments Data. Overlay DHCS facility data to measure spending-per-bed and spending-per-capita-with-BH-diagnosis ratios by county. |
+| **Research question** | Does behavioral health spending in California reach the populations and geographies that need it, and what structural factors - facility supply, payer mix, parity enforcement - predict the gap? |
+| **Method**        | Extend HCAI's existing Milbank methodology (currently commercial-only, statewide aggregates) to all payers at the county level using Healthcare Payments Data. Overlay DHCS facility data to measure spending per bed and spending per capita with a behavioral health diagnosis by county. |
 | **Output**        | County-level behavioral health access-to-spending map for California. The first analysis of its kind linking claims data to facility supply for behavioral health in the state. |
-| **Context**       | HCAI has published a behavioral health spending brief covering commercial claims (2018–2023) and a utilization dashboard covering health conditions by county and payer type. Neither links spending to access or breaks behavioral health down by county and payer simultaneously. This project fills that gap. |
-| **Grant opportunity** | CHCF Affordability Research Funding Pool (up to $500K, spring 2026 cycle) specifically funds HPD-based research on consumer affordability challenges and systemwide cost drivers. Dissemination through peer-reviewed journal submission and integration into Project Jatoria. |
+| **Context**       | HCAI has published a behavioral health spending brief covering commercial claims (2018 to 2023) and a utilization dashboard covering health conditions by county and payer type. Neither links spending to access or breaks behavioral health down by county and payer simultaneously. This project fills that gap. |
+| **Grant opportunity** | CHCF Affordability Research Funding Pool (up to $500K, spring 2026 cycle) specifically funds HPD-based research on consumer affordability challenges and systemwide cost drivers. Dissemination through peer-reviewed journal submission and integration into Jatoria Cares. |
 
 ### Low-Value Psychiatric Care and Pharmaceutical Overuse
 
