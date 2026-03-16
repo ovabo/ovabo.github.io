@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Sycophancy Problem"
-date: 2026-03-16
+date: 2026-02-03
 summary: "900 million people use ChatGPT every week. An estimated 630,000 of them show signs of psychosis. I build AI systems by day and sit with suicidal patients by night. The gap between what chatbots do and what care actually requires is the most dangerous design flaw in consumer technology."
 ---
 
