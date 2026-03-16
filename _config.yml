@@ -1,0 +1,7 @@
+title: "0x41434f"
+description: Software Engineer. Mental Health Worker. Building toward Computational Psychiatry.
+baseurl: ""
+url: "https://0x41434f.github.io"
+markdown: kramdown
+theme: minima
+permalink: /essays/:title/
