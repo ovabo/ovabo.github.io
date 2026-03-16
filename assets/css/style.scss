@@ -40,42 +40,31 @@
   margin-top: 2.5rem;
 }
 
-.site-social {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 0.75rem;
-}
-
 .social-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 999px;
-  background-color: #f3f3f3;
-  border: 1px solid #e0e0e0;
-  transition: background-color 0.15s ease, border-color 0.15s ease,
-    transform 0.1s ease;
+  padding: 0.15rem;
+  line-height: 1;
+  border-radius: 4px;
+  transition: background-color 0.15s ease, transform 0.1s ease;
 }
 
 .social-link svg {
-  width: 20px;
-  height: 20px;
-  fill: #111;
+  width: 18px;
+  height: 18px;
+  fill: #666;
 }
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #111;
-  border-color: #111;
+  background-color: #f0f0f0;
   transform: translateY(-1px);
 }
 
 .social-link:hover svg,
 .social-link:focus svg {
-  fill: #ffffff;
+  fill: #111111;
 }
 
 .visually-hidden {
@@ -113,9 +102,8 @@ body {
     margin-bottom: 1.1rem;
   }
 
-  .social-link {
-    width: 48px;
-    height: 48px;
+  .site-social {
+    gap: 0.5rem;
   }
 }
 
