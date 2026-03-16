@@ -116,6 +116,17 @@ Current and planned research directions that connect claims data, facility suppl
 | **Status**        | Early stage. |
 | **Research question** | How are autism service centers funded through Medicaid, and what does CMS data reveal about spending patterns, provider concentration, and service delivery across states? |
 
+### Auditing AI Companion Apps for Psychiatric Safety (Petri)
+
+| Field             | Detail |
+|-------------------|--------|
+| **Status**        | Scoping. |
+| **Research question** | Do AI companion apps exhibit higher rates of sycophancy, encouragement of user delusion, and cooperation with harmful requests than the base models they are built on, and do gamification features (relationship status, memory, proactive messaging) amplify these behaviors? |
+| **Method**        | Use Anthropic's open-source Petri behavioral audit framework to run automated evaluations on companion app interfaces (Character.AI personas, Replika in romantic partner mode, Nomi with Soul and memory features enabled). Design psychiatric-specific seed scenarios drawn from floor experience: a user expressing delusional beliefs, a user in a manic episode, a user expressing suicidal ideation, and a user showing social isolation and emotional dependency. Run identical scenarios against base models (Claude, GPT) as a baseline, then compare scores across sycophancy, encouragement of user delusion, and appropriateness of crisis response. |
+| **Why it matters** | Current AI safety evaluations test the base model but not the consumer application built on top of it. Companion app personas, gamification, and engagement optimization can reintroduce every danger the model was trained to prevent. This project tests the car, not just the engine. |
+| **Connections**   | Extends the evaluation gap identified in "The Sycophancy Problem" essay. Produces precursor data for the open clinical questions raised by *Psychiatric Times* (February 2026) about sycophancy-induced psychosis and chatbot-driven social isolation. Serves as a proof of concept for Psychify's approach to AI evaluation in clinical settings and aligns with Anthropic Fellows Program research areas (adversarial robustness and scalable oversight) for the May and July 2026 cohorts. |
+| **Tools**         | Petri (open-source, Anthropic), Python, and companion app APIs or interface access. |
+
 ---
 
 ## Tools
