@@ -5,3 +5,7 @@ url: "https://0x41434f.github.io"
 markdown: kramdown
 theme: minima
 permalink: /essays/:title/
+header_pages:
+  - index.md
+  - projects.md
+
