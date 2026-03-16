@@ -1,0 +1,118 @@
+---
+---
+
+@import "minima";
+
+/* Homepage essay list */
+.page-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.page-content ul li {
+  margin-bottom: 0.9rem;
+}
+
+.page-content ul li strong {
+  color: #0a0a0a;
+}
+
+.page-content ul li a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.page-content ul li a:hover,
+.page-content ul li a:focus {
+  text-decoration: underline;
+}
+
+.page-content ul li em {
+  display: block;
+  margin-top: 0.2rem;
+  color: #5a5a5a;
+}
+
+/* Footer social links (compact, one row) */
+.site-footer {
+  margin-top: 2.5rem;
+}
+
+.site-social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  line-height: 1;
+  border-radius: 6px;
+}
+
+.social-link svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Mobile-first readability and touch targets */
+body {
+  line-height: 1.7;
+}
+
+.page-content {
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  .site-main {
+    padding-top: 1.25rem;
+  }
+
+  .page-content p,
+  .page-content li {
+    line-height: 1.75;
+  }
+
+  .page-content ul li {
+    margin-bottom: 1.1rem;
+  }
+
+  .site-social {
+    gap: 0.5rem;
+  }
+
+  .social-link {
+    width: 40px;
+    height: 40px;
+  }
+}
+
