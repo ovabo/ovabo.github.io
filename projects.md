@@ -87,7 +87,7 @@ Current and planned research directions that connect claims data, facility suppl
 | Field             | Detail |
 |-------------------|--------|
 | **Status**        | Data access requested from HCAI. |
-| **Research question** | Does behavioral health spending in California reach the populations and geographies that need it, and what structural factors - facility supply, payer mix, parity enforcement - predict the gap? |
+| **Research question** | Does behavioral health spending in California reach the populations and geographies that need it, and what structural factors such as facility supply, payer mix, and parity enforcement predict the gap? |
 | **Method**        | Extend HCAI's existing Milbank methodology (currently commercial-only, statewide aggregates) to all payers at the county level using Healthcare Payments Data. Overlay DHCS facility data to measure spending per bed and spending per capita with a behavioral health diagnosis by county. |
 | **Output**        | County-level behavioral health access-to-spending map for California. The first analysis of its kind linking claims data to facility supply for behavioral health in the state. |
 | **Context**       | HCAI has published a behavioral health spending brief covering commercial claims (2018 to 2023) and a utilization dashboard covering health conditions by county and payer type. Neither links spending to access or breaks behavioral health down by county and payer simultaneously. This project fills that gap. |
@@ -136,7 +136,7 @@ Current and planned research directions that connect claims data, facility suppl
 | Field           | Detail |
 |----------------|--------|
 | **What it does** | Scrapes and analyzes patient reviews of psychiatric hospitals across California to test whether patterns observed at a single hospital hold up statewide. |
-| **Purpose**       | I cannot work at every facility, so this is a way to gather data at scale and see whether the inefficiencies I document in my essays — intake failures, medication cycling, environmental design problems — are systemic or local. |
+| **Purpose**       | I cannot work at every facility, so this is a way to gather data at scale and see whether the inefficiencies I document in my essays, from intake failures to medication cycling and environmental design problems, are systemic or local. |
 
 ---
 
