@@ -78,10 +78,11 @@ Here is how to start. Write to me and we will spend an hour on your operation, a
 
 We are also hiring engineers who want to build this way.
 
-You can reach me at [email address].
+You can reach me at deployco@aiwanfo.com.
 
 Alexander Ovabor
-Co-founder, Aiwanfo
+
+Co-founder, Aiwanfo Technologies Co.
 An Ovabor Labs company
 
 ---
